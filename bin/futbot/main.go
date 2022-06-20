@@ -92,8 +92,8 @@ func getForm(entries *[]Entry, district string, page int, viewstate string, even
 
 	q.Add("District", district)
 	q.Add("Activity", "FOTB")
-	q.Add("Date", "2022-04-11")
-	q.Add("DateTom", "2022-04-15")
+	q.Add("Date", "2022-06-20")
+	q.Add("DateTom", "2022-06-23")
 	q.Add("Start", "1900")
 	q.Add("End", "2200")
 
