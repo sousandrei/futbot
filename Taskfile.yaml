@@ -1,0 +1,23 @@
+# https://taskfile.dev
+
+version: "3"
+
+vars:
+  GREETING: Hello, World!
+
+tasks:
+  default:
+    cmds:
+      - task: build
+
+  build:
+    cmds:
+      - go build -o build/futbot cmd/main.go
+
+  run:
+    cmds:
+      - go run cmd/main.go
+
+  lint:
+    cmds:
+      - golangci-lint run
