@@ -3,7 +3,7 @@ module github.com/sousandrei/futbot
 go 1.18
 
 require (
-	github.com/PuerkitoBio/goquery v1.9.0
+	github.com/PuerkitoBio/goquery v1.9.1
 	github.com/jedib0t/go-pretty/v6 v6.5.4
 )
 
