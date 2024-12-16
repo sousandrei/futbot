@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/PuerkitoBio/goquery v1.9.2
-	github.com/jedib0t/go-pretty/v6 v6.5.8
+	github.com/jedib0t/go-pretty/v6 v6.6.5
 )
 
 require (
@@ -13,4 +13,5 @@ require (
 	github.com/rivo/uniseg v0.2.0 // indirect
 	golang.org/x/net v0.24.0 // indirect
 	golang.org/x/sys v0.19.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 )
